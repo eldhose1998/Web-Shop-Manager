@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.name{
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 10px;
+  margin-left: 120px;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin-right: 120px;
+    color: whitesmoke;
+    font-size:small;
+    font-weight:100;
+}
+
+.nav-item {
+    margin-left: 20px;
+    position: relative;
+}
+
+.nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1em;
+}
+.nav-item .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 100%;
+    left: 0;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown-link {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-link:hover {
+    background-color: #444;
+}
+.centerWord{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+.image-one {
+    display: flex;
+    margin: 5px auto;
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    
+}
+.image-one img{
+    opacity: 0.5; 
+}
+
+.overlay_text{
+    position:absolute;
+    padding: 80px 140px;
+    color: white;
+    font-size: 50px;
+    font-weight:bolder;
+    
+}
+.sub{
+    font-size: 25px;
+    font-weight: lighter;
+    color:lightgray;
+    
+}
+.content{
+    margin: 70px;
+    margin-left: 130px;
+    margin-right: 130px;
+    color: #444;
+    font-size: smaller;
+}
+.title{
+    color: lightgrey;
+    font-size: larger;
+    text-align: center;
+}
+.center_image {
+    display: flex; 
+    justify-content: center; 
+    margin: 25px;
+    
+}
+
+.note {
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 0px 150px; 
+}
+
+.top-left {
+    top: 5px;
+    left: 5px;
+}
+
+.top-right {
+    top: 10px;
+    right: 5px;
+}
+
+.bottom-left {
+    left: 5px;
+    
+}
+
+.bottom-right {
+    right: 5px;
+}
+
+.section_two {
+    margin-top: 70px;
+    background-color: black;
+    color: white; 
+    text-align: center; 
+}
+.section_two h2{
+    color: chocolate;
+    padding-top:40px; 
+    margin: 10px;
+    font-weight: normal;
+
+}
+.section_two p{
+    font-size: small;
+    font-weight:lighter;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-bottom: 60px;
+    text-align: left;
+}
+
+.sixboxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 100px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.boxes {
+    position: relative;
+    width: calc(33.33% - 20px);
+    margin: 5px;
+    background-color: black; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+img[src="new.png"] {
+    opacity: 0.4;
+        
+}
+.boxes img {
+    width: 100%; 
+    
+}
+.highlight{
+    color: chocolate;
+}
+.description{
+    position:absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight:bolder;
+}
+.section_three {
+    margin-top: 30px;
+    background-color: black;
+    color: white; 
+    text-align: center; 
+}
+.section_three h2{
+    color: chocolate;
+    padding-top:40px; 
+    margin: 10px;
+    font-weight: normal;
+}
+.section_three p{
+    font-size: small;
+    font-weight:lighter;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+.section_three .secdesc{
+    position: relative;
+
+}
+
+.section_three .secdesc img {
+    width: 100%;
+    height: 140px;
+    opacity: 0.3;
+}
+
+
+.overtop_text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+    font-size: small;
+    font-weight:lighter;
+    margin-left: 120px;
+    margin-right: 130px;
+    text-align: left;
+}
+
+.footer_text{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    font-size: xx-small;
+    font-weight: lighter;
+    padding: 15px;
+}
