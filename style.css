@@ -110,7 +110,7 @@ body {
     margin-left: 130px;
     margin-right: 130px;
     color: #444;
-    font-size: smaller;
+    font-size: 25px;
 }
 .title{
     color: lightgrey;
@@ -121,6 +121,7 @@ body {
     display: flex; 
     justify-content: center; 
     margin: 25px;
+    
     
 }
 
@@ -162,10 +163,11 @@ body {
     padding-top:40px; 
     margin: 10px;
     font-weight: normal;
+    font-size: 45px;
 
 }
 .section_two p{
-    font-size: small;
+    font-size: 25px;
     font-weight:lighter;
     margin-left: 130px;
     margin-right: 130px;
@@ -204,8 +206,9 @@ img[src="new.png"] {
     position:absolute;
     bottom: 20px;
     color: white;
-    font-size: 18px;
+    font-size: 35px;
     font-weight:bolder;
+
 }
 .section_three {
     margin-top: 30px;
@@ -220,7 +223,7 @@ img[src="new.png"] {
     font-weight: normal;
 }
 .section_three p{
-    font-size: small;
+    font-size: 25px;
     font-weight:lighter;
     margin-left: 130px;
     margin-right: 130px;
@@ -245,7 +248,7 @@ img[src="new.png"] {
     left: 0;
     padding: 10px;
     color: white;
-    font-size: small;
+    font-size: 25px;
     font-weight:lighter;
     margin-left: 120px;
     margin-right: 130px;
